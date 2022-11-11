@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.kujio",
+    "module": "kandroidutils",
+    "version": "1.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kandroidutils-1.3.3.aar",
+          "url": "kandroidutils-1.3.3.aar",
+          "size": 132128,
+          "sha512": "1ebe026881ab7b4076434f1be538ed232dff888b8ccfe0bc45544d637e1d9467b942b5fbd8c9a6ffd5bac04d5f136294a52a8f59c861aac5885277dfa59f8a8f",
+          "sha256": "90378703dbf88319989539b54d619bcd5bf3ebca7e33ca1ca1c824280399c740",
+          "sha1": "77ede73de5449ba1237f7235a1548bb7440e72f9",
+          "md5": "1e51287c6f4428e8c65220671302ec31"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kandroidutils-1.3.3.aar",
+          "url": "kandroidutils-1.3.3.aar",
+          "size": 132128,
+          "sha512": "1ebe026881ab7b4076434f1be538ed232dff888b8ccfe0bc45544d637e1d9467b942b5fbd8c9a6ffd5bac04d5f136294a52a8f59c861aac5885277dfa59f8a8f",
+          "sha256": "90378703dbf88319989539b54d619bcd5bf3ebca7e33ca1ca1c824280399c740",
+          "sha1": "77ede73de5449ba1237f7235a1548bb7440e72f9",
+          "md5": "1e51287c6f4428e8c65220671302ec31"
+        }
+      ]
+    }
+  ]
+}
